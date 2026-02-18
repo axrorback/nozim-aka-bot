@@ -106,7 +106,7 @@ def travel_detail(call):
         f"<b>Yo‘nalish:</b> {t.from_city} → {t.to_city}\n"
         f"<b>Sanalar:</b> {t.start_date} — {t.end_date}\n"
         f"<b>Rahbar:</b> {t.leader_person}\n"
-        f"<b>Narx:</b> {t.price} so‘m\n"
+        f"<b>Narx:</b> {t.price}$\n"
     )
 
     kb = types.InlineKeyboardMarkup()
